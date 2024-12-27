@@ -1,0 +1,41 @@
+
+Stream :
+
+~ Collection : To Represent group of data/Objects as single entity.
+~ Stream     : To Process the data from collection we use streams concepts.
+             - Stream provides some methods like filter,map,sorted,limit,distinct and so on,
+               by using this methods we can process the data from collection.
+
+-  Filter :
+        Filter it means suppose i have some group of collection or data, and by set some condition i want to
+        filter that data. so i can use filter.
+-  Map    :
+        map an intermediate operation.
+        First we add collection into stream and then process the data.
+        map method will transform the data from source and then we can get it into target.
+        In map we read each and every object or element we do some operation and then add it into
+            another collection.
+
+- flatMap:
+        Basically flatmap() with use for collection of collection, it means group of multiple collections.
+        (complex collection)
+        if you want to process on collection of collection we will go with flatMap().
+        flatMap return multiple values.(stream of object)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
